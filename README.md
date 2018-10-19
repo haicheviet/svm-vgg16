@@ -14,4 +14,8 @@ The objective of this project is to use Keras and Sklearn
 ## Usage 2: KNN
 
 * Delete the old files in `exp/knn` folder for running code.
+<<<<<<< HEAD
 * Run file [knn_model](knn_model.py): `python knn.py`
+=======
+* Run file [knn_model](knn_model.py): `python knn.py`
+>>>>>>> 10616e7ac6586b20986c7f9b5b37399c52dc3852
