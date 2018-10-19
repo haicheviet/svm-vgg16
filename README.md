@@ -6,16 +6,12 @@ The objective of this project is to use Keras and Sklearn
 
 ## Overview
 
-## Usage 1: SVM
+## Usage 1: SVM-linear
 
 * Delete the old files in `exp/svmlinear` folder for running code.
-* Run file [svm_model](svm_model.py): `python svm_model.py`
+* Run file [svm_linear_model](svm_linear_model.py): `python svm_linear_model.py`
 
-## Usage 2: KNN
+## Usage 2: SVM-Non-linear
 
 * Delete the old files in `exp/knn` folder for running code.
-<<<<<<< HEAD
-* Run file [knn_model](knn_model.py): `python knn.py`
-=======
-* Run file [knn_model](knn_model.py): `python knn.py`
->>>>>>> 10616e7ac6586b20986c7f9b5b37399c52dc3852
+* Run file [svm_nonlinear_model](svm_nonlinear_model.py): `python svm_nonlinear_model.py`
