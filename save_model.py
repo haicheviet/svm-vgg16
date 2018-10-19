@@ -11,11 +11,11 @@ def classification_report_csv(report, path):
     for count, line in enumerate (lines[2:-3]):
         row = {}
         row_data = line.split('      ')
-        row['class'] = count
-        row['precision'] = float(row_data[1])
-        row['recall'] = float(row_data[2])
-        row['f1_score'] = float(row_data[3])
-        row['support'] = float(row_data[4])
+        row['class'] = float(row_data[1])
+        row['precision'] = float(row_data[2])
+        row['recall'] = float(row_data[3])
+        row['f1_score'] = float(row_data[4]) 
+        row['support'] = float(row_data[5])
         report_data.append(row)
     dataframe = pd.DataFrame.from_dict(report_data)
     dataframe.to_csv(path + 'classification_report.csv', index = False)
